@@ -1,8 +1,8 @@
 //
 //  SSACreditCardValidator.m
 //
-//  Created by Sebastian S. Andersen on 1/6/2014.
-//  Copyright (c) 2014 Sebastian S. Andersen. All rights reserved.
+//  Created by Sebastian Andersen on 1/6/2014.
+//  Copyright (c) 2014 Sebastian Andersen. All rights reserved.
 //
 
 #import "SSACreditCardValidator.h"
