@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC0D89591940AF43008D5268 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC0D89581940AF43008D5268 /* Foundation.framework */; };
+		DC0D895B1940AF43008D5268 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC0D895A1940AF43008D5268 /* CoreGraphics.framework */; };
+		DC0D895D1940AF43008D5268 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC0D895C1940AF43008D5268 /* UIKit.framework */; };
+		DC0D89631940AF43008D5268 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC0D89611940AF43008D5268 /* InfoPlist.strings */; };
+		DC0D89651940AF43008D5268 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0D89641940AF43008D5268 /* main.m */; };
+		DC0D89691940AF43008D5268 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0D89681940AF43008D5268 /* AppDelegate.m */; };
+		DC0D896C1940AF43008D5268 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC0D896A1940AF43008D5268 /* Main.storyboard */; };
+		DC0D896F1940AF43008D5268 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0D896E1940AF43008D5268 /* ViewController.m */; };
+		DC0D89711940AF43008D5268 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC0D89701940AF43008D5268 /* Images.xcassets */; };
+		DC0D89781940AF43008D5268 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC0D89771940AF43008D5268 /* XCTest.framework */; };
+		DC0D89791940AF43008D5268 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC0D89581940AF43008D5268 /* Foundation.framework */; };
+		DC0D897A1940AF43008D5268 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC0D895C1940AF43008D5268 /* UIKit.framework */; };
+		DC0D89821940AF43008D5268 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC0D89801940AF43008D5268 /* InfoPlist.strings */; };
+		DC0D89841940AF43008D5268 /* SSACreditCardValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0D89831940AF43008D5268 /* SSACreditCardValidatorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC0D897B1940AF43008D5268 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC0D894D1940AF43008D5268 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC0D89541940AF43008D5268;
+			remoteInfo = SSACreditCardValidator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC0D89551940AF43008D5268 /* SSACreditCardValidator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSACreditCardValidator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC0D89581940AF43008D5268 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DC0D895A1940AF43008D5268 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DC0D895C1940AF43008D5268 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DC0D89601940AF43008D5268 /* SSACreditCardValidator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SSACreditCardValidator-Info.plist"; sourceTree = "<group>"; };
+		DC0D89621940AF43008D5268 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC0D89641940AF43008D5268 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC0D89661940AF43008D5268 /* SSACreditCardValidator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSACreditCardValidator-Prefix.pch"; sourceTree = "<group>"; };
+		DC0D89671940AF43008D5268 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC0D89681940AF43008D5268 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC0D896B1940AF43008D5268 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC0D896D1940AF43008D5268 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DC0D896E1940AF43008D5268 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DC0D89701940AF43008D5268 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DC0D89761940AF43008D5268 /* SSACreditCardValidatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSACreditCardValidatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC0D89771940AF43008D5268 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DC0D897F1940AF43008D5268 /* SSACreditCardValidatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SSACreditCardValidatorTests-Info.plist"; sourceTree = "<group>"; };
+		DC0D89811940AF43008D5268 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC0D89831940AF43008D5268 /* SSACreditCardValidatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSACreditCardValidatorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC0D89521940AF43008D5268 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0D895B1940AF43008D5268 /* CoreGraphics.framework in Frameworks */,
+				DC0D895D1940AF43008D5268 /* UIKit.framework in Frameworks */,
+				DC0D89591940AF43008D5268 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0D89731940AF43008D5268 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0D89781940AF43008D5268 /* XCTest.framework in Frameworks */,
+				DC0D897A1940AF43008D5268 /* UIKit.framework in Frameworks */,
+				DC0D89791940AF43008D5268 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC0D894C1940AF43008D5268 = {
+			isa = PBXGroup;
+			children = (
+				DC0D895E1940AF43008D5268 /* SSACreditCardValidator */,
+				DC0D897D1940AF43008D5268 /* SSACreditCardValidatorTests */,
+				DC0D89571940AF43008D5268 /* Frameworks */,
+				DC0D89561940AF43008D5268 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC0D89561940AF43008D5268 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC0D89551940AF43008D5268 /* SSACreditCardValidator.app */,
+				DC0D89761940AF43008D5268 /* SSACreditCardValidatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC0D89571940AF43008D5268 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC0D89581940AF43008D5268 /* Foundation.framework */,
+				DC0D895A1940AF43008D5268 /* CoreGraphics.framework */,
+				DC0D895C1940AF43008D5268 /* UIKit.framework */,
+				DC0D89771940AF43008D5268 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC0D895E1940AF43008D5268 /* SSACreditCardValidator */ = {
+			isa = PBXGroup;
+			children = (
+				DC0D89671940AF43008D5268 /* AppDelegate.h */,
+				DC0D89681940AF43008D5268 /* AppDelegate.m */,
+				DC0D896A1940AF43008D5268 /* Main.storyboard */,
+				DC0D896D1940AF43008D5268 /* ViewController.h */,
+				DC0D896E1940AF43008D5268 /* ViewController.m */,
+				DC0D89701940AF43008D5268 /* Images.xcassets */,
+				DC0D895F1940AF43008D5268 /* Supporting Files */,
+			);
+			path = SSACreditCardValidator;
+			sourceTree = "<group>";
+		};
+		DC0D895F1940AF43008D5268 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC0D89601940AF43008D5268 /* SSACreditCardValidator-Info.plist */,
+				DC0D89611940AF43008D5268 /* InfoPlist.strings */,
+				DC0D89641940AF43008D5268 /* main.m */,
+				DC0D89661940AF43008D5268 /* SSACreditCardValidator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC0D897D1940AF43008D5268 /* SSACreditCardValidatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC0D89831940AF43008D5268 /* SSACreditCardValidatorTests.m */,
+				DC0D897E1940AF43008D5268 /* Supporting Files */,
+			);
+			path = SSACreditCardValidatorTests;
+			sourceTree = "<group>";
+		};
+		DC0D897E1940AF43008D5268 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC0D897F1940AF43008D5268 /* SSACreditCardValidatorTests-Info.plist */,
+				DC0D89801940AF43008D5268 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC0D89541940AF43008D5268 /* SSACreditCardValidator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC0D89871940AF43008D5268 /* Build configuration list for PBXNativeTarget "SSACreditCardValidator" */;
+			buildPhases = (
+				DC0D89511940AF43008D5268 /* Sources */,
+				DC0D89521940AF43008D5268 /* Frameworks */,
+				DC0D89531940AF43008D5268 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSACreditCardValidator;
+			productName = SSACreditCardValidator;
+			productReference = DC0D89551940AF43008D5268 /* SSACreditCardValidator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC0D89751940AF43008D5268 /* SSACreditCardValidatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC0D898A1940AF43008D5268 /* Build configuration list for PBXNativeTarget "SSACreditCardValidatorTests" */;
+			buildPhases = (
+				DC0D89721940AF43008D5268 /* Sources */,
+				DC0D89731940AF43008D5268 /* Frameworks */,
+				DC0D89741940AF43008D5268 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC0D897C1940AF43008D5268 /* PBXTargetDependency */,
+			);
+			name = SSACreditCardValidatorTests;
+			productName = SSACreditCardValidatorTests;
+			productReference = DC0D89761940AF43008D5268 /* SSACreditCardValidatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC0D894D1940AF43008D5268 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Sebastian Andersen";
+				TargetAttributes = {
+					DC0D89751940AF43008D5268 = {
+						TestTargetID = DC0D89541940AF43008D5268;
+					};
+				};
+			};
+			buildConfigurationList = DC0D89501940AF43008D5268 /* Build configuration list for PBXProject "SSACreditCardValidator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC0D894C1940AF43008D5268;
+			productRefGroup = DC0D89561940AF43008D5268 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC0D89541940AF43008D5268 /* SSACreditCardValidator */,
+				DC0D89751940AF43008D5268 /* SSACreditCardValidatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC0D89531940AF43008D5268 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0D89711940AF43008D5268 /* Images.xcassets in Resources */,
+				DC0D89631940AF43008D5268 /* InfoPlist.strings in Resources */,
+				DC0D896C1940AF43008D5268 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0D89741940AF43008D5268 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0D89821940AF43008D5268 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC0D89511940AF43008D5268 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0D896F1940AF43008D5268 /* ViewController.m in Sources */,
+				DC0D89691940AF43008D5268 /* AppDelegate.m in Sources */,
+				DC0D89651940AF43008D5268 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0D89721940AF43008D5268 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0D89841940AF43008D5268 /* SSACreditCardValidatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC0D897C1940AF43008D5268 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC0D89541940AF43008D5268 /* SSACreditCardValidator */;
+			targetProxy = DC0D897B1940AF43008D5268 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC0D89611940AF43008D5268 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC0D89621940AF43008D5268 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DC0D896A1940AF43008D5268 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC0D896B1940AF43008D5268 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC0D89801940AF43008D5268 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC0D89811940AF43008D5268 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC0D89851940AF43008D5268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC0D89861940AF43008D5268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC0D89881940AF43008D5268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSACreditCardValidator/SSACreditCardValidator-Prefix.pch";
+				INFOPLIST_FILE = "SSACreditCardValidator/SSACreditCardValidator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DC0D89891940AF43008D5268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSACreditCardValidator/SSACreditCardValidator-Prefix.pch";
+				INFOPLIST_FILE = "SSACreditCardValidator/SSACreditCardValidator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DC0D898B1940AF43008D5268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SSACreditCardValidator.app/SSACreditCardValidator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSACreditCardValidator/SSACreditCardValidator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SSACreditCardValidatorTests/SSACreditCardValidatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DC0D898C1940AF43008D5268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SSACreditCardValidator.app/SSACreditCardValidator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSACreditCardValidator/SSACreditCardValidator-Prefix.pch";
+				INFOPLIST_FILE = "SSACreditCardValidatorTests/SSACreditCardValidatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC0D89501940AF43008D5268 /* Build configuration list for PBXProject "SSACreditCardValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC0D89851940AF43008D5268 /* Debug */,
+				DC0D89861940AF43008D5268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC0D89871940AF43008D5268 /* Build configuration list for PBXNativeTarget "SSACreditCardValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC0D89881940AF43008D5268 /* Debug */,
+				DC0D89891940AF43008D5268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC0D898A1940AF43008D5268 /* Build configuration list for PBXNativeTarget "SSACreditCardValidatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC0D898B1940AF43008D5268 /* Debug */,
+				DC0D898C1940AF43008D5268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC0D894D1940AF43008D5268 /* Project object */;
+}
