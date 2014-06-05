@@ -37,4 +37,5 @@ A simple creditcard validation class
 
 ```
 
-
+##Thanks
+[Luhn Validation Code](https://github.com/MaxKramer/ObjectiveLuhn)
