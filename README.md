@@ -4,12 +4,13 @@ SSACreditCardValidator
 A simple creditcard validation class
 
 
-![My image](https://github.com/SSA111/SSACreditCardValidator/blob/master/SSACreditCardValidator/Image.png)
+![My image](https://github.com/SSA111/SSACreditCardValidator/blob/master/SSACreditCardValidator/Image.png?raw=true))
 
 
+VALIDATION METHODS
+======================
 
- ```
-
+```
 @interface SSACreditCardValidator : NSObject
 
 + (BOOL)isLuhnValidString:(NSString *)cardNumber forType:(SSACreditCardType)type;
@@ -35,5 +36,6 @@ A simple creditcard validation class
 
 @end
 
- 
-  ```
+```
+
+
