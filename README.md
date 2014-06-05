@@ -6,8 +6,12 @@ A simple creditcard validation class
 
 ![My image](https://github.com/SSA111/SSACreditCardValidator/blob/master/SSACreditCardValidator/Image.png)
 
+
+
  ```
- 
+
+@interface SSACreditCardValidator : NSObject
+
 + (BOOL)isLuhnValidString:(NSString *)cardNumber forType:(SSACreditCardType)type;
 + (BOOL)isLuhnValidString:(NSString *)cardNumber;
 + (BOOL)isValidCardExpiry:(NSString *)expiryDate;
@@ -16,5 +20,20 @@ A simple creditcard validation class
 + (NSString *)creditCardTypeFromType:(SSACreditCardType)type;
 + (NSArray *)splitExpiryDateWithDate:(NSString *)date;
 + (SSACreditCardType)creditCardTypeFromString:(NSString *)cardNumber;
+
+@end
+
+@interface NSString (SSACreditCardValidator)
+
+- (BOOL)isValidCreditCardNumber;
+- (BOOL)isCardExpired;
+- (BOOL)isCVVValidWithCardNumber:(NSString *)cardNumber;
+- (NSString *)creditCardTypeString;
+- (NSString *)maskCreditCardNumber;
+- (NSArray *)splitExpiryDate;
+- (SSACreditCardType)creditCardType;
+
+@end
+
  
   ```
