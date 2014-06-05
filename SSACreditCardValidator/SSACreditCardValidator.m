@@ -311,7 +311,6 @@
     SSACreditCardType cardType = [SSACreditCardValidator creditCardTypeFromString:cardNumber];
     
     if (cardType == SSACreditCardTypeAmex) {
-        NSLog(@"hasdas");
         if (ccvForValidation.length == 4) {
             return YES;
         }else {
