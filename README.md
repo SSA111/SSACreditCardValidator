@@ -39,3 +39,6 @@ A simple creditcard validation class
 
 ##Thanks
 [Luhn Validation Code](https://github.com/MaxKramer/ObjectiveLuhn)
+
+##License
+This project is licensed under the MIT license.
