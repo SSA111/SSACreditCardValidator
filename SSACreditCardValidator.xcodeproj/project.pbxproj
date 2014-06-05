@@ -21,6 +21,7 @@
 		DC0D897A1940AF43008D5268 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC0D895C1940AF43008D5268 /* UIKit.framework */; };
 		DC0D89821940AF43008D5268 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC0D89801940AF43008D5268 /* InfoPlist.strings */; };
 		DC0D89841940AF43008D5268 /* SSACreditCardValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0D89831940AF43008D5268 /* SSACreditCardValidatorTests.m */; };
+		DC0D898F1940AF76008D5268 /* SSACreditCardValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0D898E1940AF76008D5268 /* SSACreditCardValidator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		DC0D897F1940AF43008D5268 /* SSACreditCardValidatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SSACreditCardValidatorTests-Info.plist"; sourceTree = "<group>"; };
 		DC0D89811940AF43008D5268 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DC0D89831940AF43008D5268 /* SSACreditCardValidatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSACreditCardValidatorTests.m; sourceTree = "<group>"; };
+		DC0D898D1940AF76008D5268 /* SSACreditCardValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSACreditCardValidator.h; sourceTree = "<group>"; };
+		DC0D898E1940AF76008D5268 /* SSACreditCardValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSACreditCardValidator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +115,12 @@
 		DC0D895E1940AF43008D5268 /* SSACreditCardValidator */ = {
 			isa = PBXGroup;
 			children = (
+				DC0D89901940BF89008D5268 /* SSACreditCardValidator */,
 				DC0D89671940AF43008D5268 /* AppDelegate.h */,
 				DC0D89681940AF43008D5268 /* AppDelegate.m */,
-				DC0D896A1940AF43008D5268 /* Main.storyboard */,
 				DC0D896D1940AF43008D5268 /* ViewController.h */,
 				DC0D896E1940AF43008D5268 /* ViewController.m */,
+				DC0D896A1940AF43008D5268 /* Main.storyboard */,
 				DC0D89701940AF43008D5268 /* Images.xcassets */,
 				DC0D895F1940AF43008D5268 /* Supporting Files */,
 			);
@@ -150,6 +154,15 @@
 				DC0D89801940AF43008D5268 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC0D89901940BF89008D5268 /* SSACreditCardValidator */ = {
+			isa = PBXGroup;
+			children = (
+				DC0D898D1940AF76008D5268 /* SSACreditCardValidator.h */,
+				DC0D898E1940AF76008D5268 /* SSACreditCardValidator.m */,
+			);
+			name = SSACreditCardValidator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC0D896F1940AF43008D5268 /* ViewController.m in Sources */,
+				DC0D898F1940AF76008D5268 /* SSACreditCardValidator.m in Sources */,
 				DC0D89691940AF43008D5268 /* AppDelegate.m in Sources */,
 				DC0D89651940AF43008D5268 /* main.m in Sources */,
 			);
