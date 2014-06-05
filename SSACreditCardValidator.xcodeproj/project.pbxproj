@@ -22,6 +22,7 @@
 		DC0D89821940AF43008D5268 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC0D89801940AF43008D5268 /* InfoPlist.strings */; };
 		DC0D89841940AF43008D5268 /* SSACreditCardValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0D89831940AF43008D5268 /* SSACreditCardValidatorTests.m */; };
 		DC0D898F1940AF76008D5268 /* SSACreditCardValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0D898E1940AF76008D5268 /* SSACreditCardValidator.m */; };
+		DC0D89961940C4A7008D5268 /* Image.png in Resources */ = {isa = PBXBuildFile; fileRef = DC0D89951940C4A7008D5268 /* Image.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		DC0D89831940AF43008D5268 /* SSACreditCardValidatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSACreditCardValidatorTests.m; sourceTree = "<group>"; };
 		DC0D898D1940AF76008D5268 /* SSACreditCardValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSACreditCardValidator.h; sourceTree = "<group>"; };
 		DC0D898E1940AF76008D5268 /* SSACreditCardValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSACreditCardValidator.m; sourceTree = "<group>"; };
+		DC0D89951940C4A7008D5268 /* Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Image.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				DC0D896E1940AF43008D5268 /* ViewController.m */,
 				DC0D896A1940AF43008D5268 /* Main.storyboard */,
 				DC0D89701940AF43008D5268 /* Images.xcassets */,
+				DC0D89951940C4A7008D5268 /* Image.png */,
 				DC0D895F1940AF43008D5268 /* Supporting Files */,
 			);
 			path = SSACreditCardValidator;
@@ -242,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC0D89711940AF43008D5268 /* Images.xcassets in Resources */,
+				DC0D89961940C4A7008D5268 /* Image.png in Resources */,
 				DC0D89631940AF43008D5268 /* InfoPlist.strings in Resources */,
 				DC0D896C1940AF43008D5268 /* Main.storyboard in Resources */,
 			);
@@ -470,6 +474,7 @@
 				DC0D89891940AF43008D5268 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC0D898A1940AF43008D5268 /* Build configuration list for PBXNativeTarget "SSACreditCardValidatorTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +483,7 @@
 				DC0D898C1940AF43008D5268 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
