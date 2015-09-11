@@ -1,6 +1,7 @@
 SSACreditCardValidator
 ======================
 NO LONGER MAINTAINED!
+
 A simple creditcard validation class
 
 
